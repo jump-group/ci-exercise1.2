@@ -41,6 +41,13 @@ To get started with this exercise, follow these steps:
 
 2. Open the application in a browser at `http://localhost:3001`.
 
+### Building
+To build the assets for the application:
+
+```bash
+npm run build
+```
+
 ### Testing
 To run tests:
 
