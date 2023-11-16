@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build-assets": "sass --watch resources/style.scss public/css/style.css",
+    "build-assets:watch": "sass --watch resources/style.scss public/css/style.css",
+    "build-assets": "sass resources/style.scss public/css/style.css",
     "test": "mocha tests/app.test.js",
     "test:watch": "mocha --watch tests/app.test.js"
   },
