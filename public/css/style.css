@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #2A2A2A;
+  text-align: center;
+  font-size: 2em; /* Adjust font size */
+  margin-top: 20px; /* Adjust top margin */
+}
+
+h2 {
+  color: #FF6F61;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+table th {
+  background-color: #5E79BA;
+  color: #fff;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+table td:last-child {
+  text-align: center;
+}
+table td:last-child button {
+  background-color: #FF6F61;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+table td:last-child button:hover {
+  background-color: #5E79BA;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+input[type=text] {
+  margin-bottom: 10px;
+  padding: 10px; /* Increased padding for better visibility */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Slightly rounded corners */
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width */
+}
+input[type=text]:focus {
+  outline: none;
+  border-color: #FF6F61;
+  box-shadow: 0 0 5px #FF6F61; /* Add a subtle box-shadow on focus */
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px 20px; /* Adjusted padding for better button appearance */
+  border: none;
+  border-radius: 6px;
+  background-color: #FF6F61;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+button:hover {
+  background-color: #ff412e; /* Darken the background color on hover */
+}
+
+.header {
+  background-color: #2A2A2A;
+  color: white;
+  padding: 15px 0;
+}
+.header nav ul.nav-pills li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header nav ul.nav-pills li:last-child {
+  margin-right: 0;
+}
+.header nav ul.nav-pills li a {
+  color: white;
+  text-decoration: none;
+}
+.header nav ul.nav-pills li img {
+  width: 120px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.header nav .text-muted {
+  color: white;
+  margin-top: 10px;
+}
+.header nav .text-muted img {
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 49px;
+  text-align: center; /* Center-align the content */
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between; /* Distribute content equally */
+  align-items: center; /* Vertically align items */
+}
+.footer .footer-content .copyright {
+  flex: 1; /* Take available space */
+}
+.footer .footer-content .website-link {
+  flex: 1; /* Take available space */
+  text-align: right; /* Right-align the link */
+}
+.footer .footer-content .website-link a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer .footer-content .website-link a:hover {
+  color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */
